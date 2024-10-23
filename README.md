@@ -10,9 +10,9 @@ This extension can be used in three ways:
         - Using this way, you can generate the prop type interface code for your function component.
 ![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/image1.png?raw=true)
 
-![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/video1.mov?raw=true)
+![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/Video1.mov?raw=true)
 
-![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/video2.mov?raw=true)
+![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/Video2.mov?raw=true)
 
         - After selecting the name and pressing shortcut key "command + T", you can generate the interface code for the selected component and it will be added right above your selected component.
         
@@ -29,7 +29,7 @@ This extension can be used in three ways:
         - By selecting the props of your component or function.
 ![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/image2.png?raw=true)
 
-![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/video3.mov?raw=true)
+![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/Video3.mov?raw=true)
 
         - Just like the first approach, you may use shortcut keys "command + T" or "command + shift + T" to generate the interface code.
 
@@ -38,7 +38,7 @@ This extension can be used in three ways:
         
 ![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/image3.png?raw=true)
 
-![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/video4.mov?raw=true)
+![Image Description](https://github.com/kunjalsoni-simformsolutions/typesgenerator/blob/main/images/Video4.mov?raw=true)
 
         - After selecting your props, the props can be copied to clipboard using the shortcut keys "shift + T". This will copy the selected prop types and copy to clipboard. Now you may paste it inside your already created interface code.
 
