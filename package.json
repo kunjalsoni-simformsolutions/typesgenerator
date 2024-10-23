@@ -1,0 +1,90 @@
+{
+  "name": "typesgenerator",
+  "displayName": "TypesGenerator",
+  "description": "Generate types file from props",
+  "version": "0.0.1",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "typesgenerator.showTypesOptions",
+        "title": "Types code options"
+      },
+      {
+        "command": "typesgenerator.addTypesBlock",
+        "title": "Add types code above"
+      },
+      {
+        "command": "typesgenerator.createExtraTypes",
+        "title": "Generate types from extra params"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "typesgenerator.addTypesBlock",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "typesgenerator.showTypesOptions",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "typesgenerator.createExtraTypes",
+          "when": "editorTextFocus"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "typesgenerator.addTypesBlock",
+        "key": "ctrl+T",
+        "mac": "cmd+T",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "typesgenerator.showTypesOptions",
+        "key": "ctrl+shift+T",
+        "mac": "cmd+shift+T",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "typesgenerator.createExtraTypes",
+        "key": "shift+T",
+        "mac": "shift+T",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.60.0",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunjalsoni-simformsolutions/typesgenerator"
+  }
+}
